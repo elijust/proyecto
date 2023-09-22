@@ -1,0 +1,67 @@
+body {
+    background: url(imagenes/elegante-fondo-blanco-textura_23-2148438345.jpg);
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    min-height: 100%;
+    background-color: #fcfcfcf6;
+}
+
+.error-container {
+    margin-top: 46px;
+    padding: 40px;
+    background-color: #ffffffaa;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+
+.error-heading {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+.error-message {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #555555;
+}
+
+.error-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #00744bda;
+    text-decoration: none;
+}
+
+.error-link:hover {
+    text-decoration: underline;
+}
+
+.loader {
+    border: 6px solid #f3f3f3;
+    /* Light grey */
+    border-top: 6px solid #005833dd;
+    /* Blue */
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 2s linear infinite;
+    display: none;
+    margin: 20px auto;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
